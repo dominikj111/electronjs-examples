@@ -16,7 +16,7 @@ In the *package.json* add
 	```
 	"scripts": {
 		"electron": "electron .",
-		"electron": "ng build --prod && electron .",
+		"electron-build": "ng build --prod && electron .",
 	    ....
 	},
 	```
