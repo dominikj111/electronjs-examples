@@ -8,7 +8,7 @@ Init Commands
 3. npm install electron --save-dev
 ```
 
-Fix of *src/index.html* `<base href="/"> to <base href="./">`
+Fix of *src/index.html* (blank page issue) `<base href="/"> to <base href="./">`
 
 In the *package.json* add
 1. `... "main": "main.js", ...`
