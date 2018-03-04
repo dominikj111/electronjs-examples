@@ -12,7 +12,7 @@ Fix of *src/index.html* `<base href="/"> to <base href="./">`
 
 In the *package.json* add `... "main": "main.js", ...`
 
-main.js
+*main.js*
 
     const { app, BrowserWindow } = require('electron')
 	const path = require('path')
