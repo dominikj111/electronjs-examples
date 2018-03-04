@@ -10,7 +10,15 @@ Init Commands
 
 Fix of *src/index.html* `<base href="/"> to <base href="./">`
 
-In the *package.json* add `... "main": "main.js", ...`
+In the *package.json* add 
+	1. `... "main": "main.js", ...`
+	2. ```
+		"scripts": {
+			"electron": "electron .",
+			"electron": "ng build --prod && electron .",
+		    ....
+		},
+	  ```
 
 *main.js*
 
