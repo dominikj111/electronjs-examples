@@ -63,3 +63,14 @@ https://medium.com/developers-writing/building-a-desktop-application-with-electr
 **electron api**
 
 https://github.com/electron/electron/tree/master/docs/api
+
+**electron samples**
+
+https://github.com/electron/electron-api-demos
+
+https://github.com/hokein/electron-sample-apps (npm install -g electron)
+
+**others**
+
+https://github.com/sindresorhus/awesome-electron
+
