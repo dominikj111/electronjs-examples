@@ -7,21 +7,23 @@ import 'hammerjs';
 import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { HomePage, AboutPage, ContactPage } from '@pages/facade';
+import { HomePage, LSystemPage, ThreeDGraphicPage, FlockingPage } from '@pages/facade';
 
 let _routes: Routes = [
 	{ path: "", component: HomePage },
 	{ path: "home", component: HomePage },
-	{ path: "about", component: AboutPage },
-	{ path: "contact", component: ContactPage },
+  { path: "lsys", component: LSystemPage },
+  { path: "threed", component: ThreeDGraphicPage },
+  { path: "flocking", component: FlockingPage }
 ];
 
 @NgModule({
   declarations: [
   	AppComponent,
-  	HomePage,
-  	AboutPage,
-  	ContactPage
+    HomePage,
+  	LSystemPage,
+    ThreeDGraphicPage,
+    FlockingPage
   ],
   imports: [
     BrowserModule, BrowserAnimationsModule, MaterialModule, RouterModule.forRoot(_routes)

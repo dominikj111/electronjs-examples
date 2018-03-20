@@ -12,8 +12,10 @@ export class AppComponent {
   mobileQuery: MediaQueryList;
 
   fillerNav = [
-    { link: "contact", label: "Contact"},
-    { link: "about", label: "About"}
+    { link: "home", label: "Home"},
+    { link: "lsys", label: "L-System"},
+    { link: "threed", label: "Three D"},
+    { link: "flocking", label: "Flocking"}
   ];
 
   private _mobileQueryListener: () => void;

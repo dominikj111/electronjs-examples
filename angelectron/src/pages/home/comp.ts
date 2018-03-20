@@ -2,7 +2,7 @@ import { BasePage } from '@pages/BasePage'
 import { Component } from '@angular/core'
 
 @Component({
-	selector: 'page-contact',
-	templateUrl: 'contact.html'
+	selector: 'page-home',
+	templateUrl: 'page.html'
 })
-export class ContactPage extends BasePage { }
+export class HomePage extends BasePage { }
