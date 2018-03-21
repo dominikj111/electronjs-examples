@@ -15,7 +15,9 @@ export class AppComponent {
     { link: "home", label: "Home"},
     { link: "lsys", label: "L-System"},
     { link: "threed", label: "Three D"},
-    { link: "flocking", label: "Flocking"}
+    { link: "flocking", label: "Flocking"},
+    { link: "jqwdashb", label: "JQW Dashboard"},
+    { link: "jqwkanban", label: "JQW Kanban"}
   ];
 
   private _mobileQueryListener: () => void;
