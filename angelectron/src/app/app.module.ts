@@ -9,7 +9,7 @@ import 'hammerjs';
 import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { HomePage, LSystemPage, ThreeDGraphicPage, FlockingPage, JQWDashboardPage, JQWKanbanPage } from '@pages/facade';
+import { HomePage, LSystemPage, ThreeDGraphicPage, FlockingPage, JQWDashboardPage, JQWKanbanPage, DThreePage, DThreeCollisionPage } from '@pages/facade';
 
 let _routes: Routes = [
 	{ path: "", component: HomePage },
@@ -18,7 +18,9 @@ let _routes: Routes = [
   { path: "threed", component: ThreeDGraphicPage },
   { path: "flocking", component: FlockingPage },
   { path: "jqwdashb", component: JQWDashboardPage },
-  { path: "jqwkanban", component: JQWKanbanPage }
+  { path: "jqwkanban", component: JQWKanbanPage },
+  { path: "dthree", component: DThreePage },
+  { path: "dthreecollision", component: DThreeCollisionPage }
 ];
 
 @NgModule({
@@ -29,7 +31,9 @@ let _routes: Routes = [
     ThreeDGraphicPage,
     FlockingPage,
     JQWDashboardPage,
-    JQWKanbanPage
+    JQWKanbanPage,
+    DThreePage,
+    DThreeCollisionPage
   ],
   imports: [
     CommonModule, BrowserModule, BrowserAnimationsModule, MaterialModule, JQWidgetsModule, RouterModule.forRoot(_routes)

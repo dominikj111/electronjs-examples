@@ -2,11 +2,10 @@ import { Component, ViewEncapsulation } from '@angular/core';
 
 @Component({
     selector: 'jqw-dashboard-page',
-    templateUrl: './page.html',
+    templateUrl: 'page.html',
     styleUrls: ['./style.css'],
     encapsulation: ViewEncapsulation.None
 })
-
 export class JQWDashboardPage {
     data1: any[] =
     [

@@ -7,8 +7,8 @@ let p5 = require("p5");
 
 @Component({
 	selector: 'page-threed-graphics',
-	styleUrls: ['style.css'],
-	templateUrl: 'page.html'
+	templateUrl: 'page.html',
+	styleUrls: ['./style.css']
 })
 export class ThreeDGraphicPage extends BasePage {
 

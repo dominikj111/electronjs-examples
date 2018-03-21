@@ -4,11 +4,10 @@ import { jqxKanbanComponent } from '../../../node_modules/jqwidgets-framework/jq
 
 @Component({
     selector: 'jqw-kanban-page',
-    templateUrl: './page.html',
+    templateUrl: 'page.html',
     styleUrls: ['../../../node_modules/jqwidgets-framework/jqwidgets/styles/jqx.base.css','./style.css'],
     encapsulation: ViewEncapsulation.None
 })
-
 export class JQWKanbanPage {
     @ViewChild('myKanban') myKanban: jqxKanbanComponent;
 

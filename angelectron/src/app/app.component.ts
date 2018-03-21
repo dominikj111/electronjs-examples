@@ -17,7 +17,9 @@ export class AppComponent {
     { link: "threed", label: "Three D"},
     { link: "flocking", label: "Flocking"},
     { link: "jqwdashb", label: "JQW Dashboard"},
-    { link: "jqwkanban", label: "JQW Kanban"}
+    { link: "jqwkanban", label: "JQW Kanban"},
+    { link: "dthree", label: "D3.js Graph"},
+    { link: "dthreecollision", label: "D3.js Collision"}
   ];
 
   private _mobileQueryListener: () => void;

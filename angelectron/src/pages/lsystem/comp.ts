@@ -7,7 +7,7 @@ let p5 = require("p5");
 
 @Component({
 	selector: 'page-lsystem',
-	styleUrls: ['style.css'],
+	styleUrls: ['./style.css'],
 	templateUrl: 'page.html'
 })
 export class LSystemPage extends BasePage {

@@ -74,3 +74,11 @@ https://github.com/hokein/electron-sample-apps (npm install -g electron)
 
 https://github.com/sindresorhus/awesome-electron
 
+**p5.js library**
+
+https://p5js.org/
+
+**jQWidgets**
+
+https://jqwidgets.com/jquery-widgets-demo/showcasedemos/
+
