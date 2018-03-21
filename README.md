@@ -1,5 +1,9 @@
 ## INIT Angular + Electron
 
+Need to have
+
+1. globally installed angular-cli (https://cli.angular.io/)
+
 Init Commands
 
 ```
@@ -20,6 +24,8 @@ In the *package.json* add
 	    ....
 	},
 	```
+
+	`ng build --prod` causing a build issue, use the `ng build` instead
 
 *main.js*
 
